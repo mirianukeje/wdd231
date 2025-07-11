@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Web Frontend Development 1 - Mirian Ukeje</title>
+    <meta name="description" content="WDD 131 - Web Frontend Development course project by Mirian Ukeje, featuring responsive design, modern HTML/CSS, and interactive JavaScript elements.">
+    <meta name="author" content="Mirian Ukeje">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/butterfly.icon.svg" alt="site logo" width="1" height="1">
+        <span>Mirian Ukeje</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <div class="about">
+                <div class="about-me">
+                    <h2>About Me</h2>
+                    <p>I am Mirian Ukeje, a passionate and curious software development student. I'm currently diving into programming, web
+                    development, and problem-solving with the goal of building practical, user-focused solutions. I enjoy learning new
+                    technologies and collaborating with others to turn ideas into working software. Excited to grow my skills and create
+                    meaningful digital experiences!
+                    </p>
+                </div>
+                <div class="student-photo">
+                    <h2>Student Photo</h2>
+                    <img src="images/miran-photo.jpg" alt="My name is Mirian Ukeje" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section">
+            <h2>Past WDD Projects</h2>
+            <div class="portfolio">
+                <a href="https://mirianukeje.github.io/wdd130/wwr/" target="_blank">
+                    <figure>
+                        <img src="images/water.icon.svg" alt="Rafting Website" width="100" loading="lazy">
+                        <figcaption>WDD 130 - Rafting Site</figcaption>
+                    </figure>
+                </a>
+                <a href="https://mirianukeje.github.io/wdd131/project/index.html" target="_blank">
+                    <figure>
+                        <img src="images/home.icon.svg" alt="William's Pet Home" width="100" loading="lazy">
+                        <figcaption>WDD 131 - William's Pet Home</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
+
+        <section class="certificate-courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="course-buttons">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="WDD">WDD</button>
+                <button class="filter-btn" data-filter="CSE">CSE</button>
+            </div>
+            <div class="courses" id="courses-container"></div>
+            <p id="total-credits">The total credits for courses listed above is 0</p>
+
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="GitHub Icon"
+                    width="48" height="48"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img
+                    src="images/linkedin.svg" alt="LinkedIn" width="48" height="48"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="Facebook"
+                    width="48" height="48"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter-X" width="48"
+                    height="48"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Mirian Ukeje - Lagos, Nigeria.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
+
+
