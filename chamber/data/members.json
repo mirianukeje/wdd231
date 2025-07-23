@@ -1,0 +1,112 @@
+{
+    "members": [
+        {
+            "name": "Opay",
+            "address": "No. 9A Idejo Street, Victoria Island, Lagos",
+            "phoneNumber": "+234 1 227 0625",
+            "email": "info@opayweb.com",
+            "website": "https://www.opayweb.com",
+            "image": "images/opay.svg",
+            "membershipLevel": 3
+        },
+        {
+            "name": "Reliance Health",
+            "address": "13b Bishop Aboyade Cole Street, VI, Lagos",
+            "phoneNumber": "+234 1 271 7272",
+            "email": "contact@reliancehealth.com",
+            "website": "https://www.reliancehealth.com",
+            "image": "images/reliance.svg",
+            "membershipLevel": 2
+        },
+        {
+            "name": "Helium Health",
+            "address": "19b Adeyemi Lawson Street, Ikoyi, Lagos",
+            "phoneNumber": "+234 1 454 5446",
+            "email": "hello@heliumhealth.com",
+            "website": "https://www.heliumhealth.com",
+            "image": "images/heliumhealth.svg",
+            "membershipLevel": 2
+        },
+        {
+            "name": "TeamApt",
+            "address": "5 Providence Street, Lekki Phase 1, Lagos",
+            "phoneNumber": "+234 1 888 1010",
+            "email": "info@teamapt.com",
+            "website": "https://www.teamapt.com",
+            "image": "images/teamapt.svg",
+            "membershipLevel": 3
+        },
+        {
+            "name": "PiggyVest",
+            "address": "Tesmot House, 3 Abdulrahman Okene Close, VI, Lagos",
+            "phoneNumber": "+234 1 888 2222",
+            "email": "contact@piggyvest.com",
+            "website": "https://www.piggyvest.com",
+            "image": "images/piggyvest.svg",
+            "membershipLevel": 2
+        },
+        {
+            "name": "Nomba",
+            "address": "4a Olumuyiwa Street, Ikeja, Lagos",
+            "phoneNumber": "+234 1 277 8282",
+            "email": "support@nomba.com",
+            "website": "https://www.nomba.com",
+            "image": "images/nomba.svg",
+            "membershipLevel": 2
+        },
+        {
+            "name": "Carbon",
+            "address": "10 Amodu Tijani Close, VI, Lagos",
+            "phoneNumber": "+234 1 271 9000",
+            "email": "help@getcarbon.co",
+            "website": "https://www.getcarbon.co",
+            "image": "images/carbon.png",
+            "membershipLevel": 2
+        },
+        {
+            "name": "CredPal",
+            "address": "20 Opebi Road, Ikeja, Lagos",
+            "phoneNumber": "+234 1 633 4400",
+            "email": "support@credpal.com",
+            "website": "https://www.credpal.com",
+            "image": "images/credpal.svg",
+            "membershipLevel": 1
+        },
+        {
+            "name": "VFD Microfinance",
+            "address": "11a Onikoyi Road, Ikoyi, Lagos",
+            "phoneNumber": "+234 1 295 0000",
+            "email": "customercare@vfdbank.com",
+            "website": "https://www.vfdbank.com",
+            "image": "images/vfd-logo.png",
+            "membershipLevel": 1
+        },
+        {
+            "name": "Chowdeck",
+            "address": "6A Folagbade Street, Lekki Phase 1, Lagos",
+            "phoneNumber": "+234 1 888 3344",
+            "email": "hello@chowdeck.com",
+            "website": "https://www.chowdeck.com",
+            "image": "images/chowdeck.svg",
+            "membershipLevel": 1
+        },
+        {
+            "name": "FairMoney",
+            "address": "87 Oduduwa Crescent, Ikeja GRA, Lagos",
+            "phoneNumber": "+234 1 631 0000",
+            "email": "support@fairmoney.ng",
+            "website": "https://www.fairmoney.ng",
+            "image": "images/fairmoney.webp",
+            "membershipLevel": 2
+        },
+        {
+            "name": "Renmoney",
+            "address": "23 Awolowo Road, Ikoyi, Lagos",
+            "phoneNumber": "+234 1 906 2540",
+            "email": "hello@renmoney.com",
+            "website": "https://www.renmoney.com",
+            "image": "images/renmoney-logo.png",
+            "membershipLevel": 2
+        }
+    ]
+}
