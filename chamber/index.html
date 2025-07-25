@@ -7,23 +7,27 @@
     <title>Lagos Chamber of Commerce</title>
     <meta name="description"
         content="Welcome to the Lagos Chamber of Commerce. Browse our directory of local businesses and organizations. Support and connect with our chamber members.">
-    <meta name="author" content="Ukeje Mirian">
+    <meta name="author" content="Mirian Ukeje">
     <meta property="og:title" content="Lagos Chamber of Commerce">
     <meta property="og:description"
         content="Find local businesses and organizations that are members of our Chamber of Commerce.">
     <meta property="og:image" content="https://mirianukeje.github.io/wdd231/chamber/images/lcci-image.jpg">
-    <meta property="og:url" content="https://mirianukeje.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://mirianukeje .github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=PT+Serif:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="favicon.icon">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-larger.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/footer.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 </head>
 
 <body>
@@ -55,7 +59,71 @@
         </div>
     </header>
     <main id="main-content">
+        <div class="hero" id="hero-home">
+            <picture class="hero-picture">
+                <source media="(min-width: 600px)" srcset="images\hero-coc-larger.webp">
+                <img src="images\hero-coc.webp" alt="Hero Image" loading="lazy">
+            </picture>
+            <div class="button-hero-home">
+                <a href="#" target="_blank" rel="noopener" class="hero-button"
+                    aria-label="Get Keynote Tickets">Keynote Tickets</a>
+            </div>
+        </div>
+        <h1>Home</h1>
+        <section class="dashboard-section">
         
+            <div class="events-block" aria-labelledby="events-heading" role="region" aria-live="polite">
+                <h2 id="events-heading">Upcoming Events</h2>
+                <div id="events" class="events">
+                    <article class="event">
+                        <h3>INVEST IN NIGERIA 2025</h3>
+                        <p><strong>Date:</strong> August 26, 2025 - August 27, 2025</p>
+                        <p>An exclusive event organised to bring together investors, entreprenuer, and policymakers to explore Nigeria's dynamic business landscape.</p>
+                    </article>
+                    
+                    <article class="event">
+                        <h3>ICTEL EXPO 2025</h3>
+                        <p><strong>Date:</strong> November 12, 2025</p>
+                        <p>Focused on harnessing the power of technology to drive innovation, growth, and sustainable development across Africa.</p>
+                    </article>
+                
+                </div>
+            </div>
+        
+            <div class="weather-block" aria-labelledby="weather-heading" role="region" aria-live="polite">
+                <h2 id="weather-heading">Current Weather</h2>
+                <div id="weather" class="weather">
+                    <div class="weather-first">
+                        <img id="weather-icon" src="images/cloud-fog.svg" alt="Weather Icon" hidden>
+                    </div>
+                    <div class="weather-second">
+                        <p><span id="current-temp"></span></p>
+                        <p class="weather-description"></p>
+                        <p>High: <span id="high-temp"></span></p>
+                        <p>Low: <span id="low-temp"></span></p>
+                        <p>Humidity: <span id="humidity"></span></p>
+                        <p>Sunrise: <span id="sunrise"></span></p>
+                        <p>Sunset: <span id="sunset"></span></p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="forecast-block" aria-labelledby="forecast-heading" role="region" aria-live="polite">
+                <h2 id="forecast-heading">Weather Forecast</h2>
+                <div id="forecast" class="forecast">
+                    <p><span id="today"></span></p>
+                    <p><span id="tomorrow"></span></p>
+                    <p><span id="overmorrow"></span></p>
+                    
+                </div>
+
+            </div>
+        </section>
+        <section id="spotlights" class="spotlight-section">
+            <h2>Member Spotlights</h2>
+            <div class="spotlight-cards"></div>
+        </section>
+          
     </main>
     <footer>
         <div class="main-footer">
@@ -68,19 +136,20 @@
             </div>
 
             <div class="social">
-                <a href="https://github.com/mirianukeje" target="_blank"><img src="images/github.svg" alt="GitHub Icon"
+                <a href="https://github.com/mirianukeje  " target="_blank"><img src="images/github.svg" alt="GitHub Icon"
                         width="48" height="48"></a>
                 <a href="https://www.linkedin.com/in/mirian-ukeje-9122311a0/" target="_blank"><img
                         src="images/linkedin.svg" alt="LinkedIn" width="48" height="48"></a>
-                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg"
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg"
                         alt="Facebook" width="48" height="48"></a>
                 <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter-X"
                         width="48" height="48"></a>
             </div>
 
             <div class="footer-author">
+
                 <p>WDD231 Class Project</p>
-                <p>Mirian Ukeje</p>
+                <p>Ukeje Mirian</p>
                 <p>&copy; <span id="currentyear"></span> Lagos Chamber of Commerce</p>
                 <p id="lastModified"></p>
             </div>

@@ -118,7 +118,6 @@
 }
 
 .navigation li.current {
-   /** background-color: var(--primary-color); **/
     border-radius: 5px;
     color: #024202;
 }
