@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover - Lagos Chamber of Commerce</title>
+    <title>Directory - Lagos Chamber of Commerce</title>
     <meta name="description"
-        content="Discover local businesses and organizations. Support and connect with our chamber members.">
+        content="Browse our directory of local businesses and organizations. Support and connect with our chamber members.">
     <meta name="author" content="Mirian Ukeje">
     <meta property="og:title" content="Directory - Lagos Chamber of Commerce">
     <meta property="og:description"
         content="Find local businesses and organizations that are members of our Chamber of Commerce.">
-    <meta property="og:image" content="https://mirianukeje.github.io/wdd231/chamber/images/lcci-image.jpg">
+    <meta property="og:image" content="https://mirianukeje.github.io/wdd231/chamber/images/lcci.jpg">
     <meta property="og:url" content="https://mirianukeje.github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,11 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-larger.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="styles/discover-medium.css">
+    <link rel="stylesheet" href="styles/discover-larger.css">
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
     <script src="scripts/footer.js" defer></script>
 </head>
 
@@ -55,36 +59,49 @@
         </div>
     </header>
     <main id="main-content">
-        
+        <h1>Discover</h1>
+        <div id="visit-message" class="visit-message"></div>
+
+        <div id="places" class="places"></div>
+
+        <dialog id="modal-cost">
+            <div class="mod-header">
+                <h3>Cost</h3>
+                <button class="close-btn">❌</button>
+            </div>
+            <p id="modal-cost-text"></p>
+        </dialog>
+
+
     </main>
     <footer>
-        <div class="main-footer">
-            <div class="footer-address">
-                <p><strong>Lagos Chamber of Commerce</strong></p>
-                <p>10 Dr Nurudeen Olowopopo Way</p>
-                <p>Alausa, Ikeja, Lagos, Nigeria</p>
-                <p>info@lagoschamber.com</p>
-                <p><a href="tel:+23408098222737">+234-80-9822-2737</a></p>
-            </div>
-
-            <div class="social">
-                <a href="https://github.com/mirianukeje" target="_blank"><img src="images/github.svg" alt="GitHub Icon"
-                        width="48" height="48"></a>
-                <a href="https://www.www.linkedin.com/in/mirian-ukeje-9122311a0/" target="_blank"><img
-                        src="images/linkedin.svg" alt="LinkedIn" width="48" height="48"></a>
-                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg"
-                        alt="Facebook" width="48" height="48"></a>
-                <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter-X"
-                        width="48" height="48"></a>
-            </div>
-
-            <div class="footer-author">
-                <p>WDD231 Class Project</p>
-                <p>Mirian Ukeje</p>
-                <p>&copy; <span id="currentyear"></span> Lagos Chamber of Commerce</p>
-                <p id="lastModified"></p>
-            </div>
+    <div class="main-footer">
+        <div class="footer-address">
+            <p><strong>Lagos Chamber of Commerce</strong></p>
+            <p>10 Dr Nurudeen Olowopopo Way</p>
+            <p>Alausa, Ikeja, Lagos, Nigeria</p>
+            <p>info@lagoschamber.com</p>
+            <p><a href="tel:+23408098222737">+234-80-9822-2737</a></p>
         </div>
+
+        <div class="social">
+            <a href="https://github.com/mirianukeje" target="_blank"><img src="images/github.svg" alt="GitHub Icon"
+                    width="48" height="48"></a>
+            <a href="https://www.linkedin.com/in/mirian-ukeje-9122311a0/" target="_blank"><img
+                    src="images/linkedin.svg" alt="LinkedIn" width="48" height="48"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="Facebook"
+                    width="48" height="48"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter-X" width="48"
+                    height="48"></a>
+        </div>
+
+        <div class="footer-author">
+            <p>WDD231 Class Project</p>
+            <p>Mirian Ukeje</p>
+            <p>&copy; <span id="currentyear"></span> Lagos Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </div>
     </footer>
 </body>
 

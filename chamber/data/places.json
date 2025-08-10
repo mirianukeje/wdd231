@@ -1,0 +1,73 @@
+[
+    {
+       "name": "Dreamworld Africana",
+       "address": "KM 20, Lekki-Ajah Expressway, Beside Orchid Hotel, Lekki, Lagos.",
+       "cost": "₦3,000-₦5,000 per person depending on rides and packages",
+       "description": "Amusement park with roller coasters, bumper cars, splash zones, and family-friendly rides.",
+       "photo_url": "images/ferrywheel.webp"
+    },
+    {
+        "name": "National Museum",
+        "address": "Onikan, Lagos Island, Lagos.",
+        "cost": "₦200-₦500 depending on age and group size",
+        "description": "Showcases Nigeria’s heritage, art, artifacts, and Murtala Mohammed's assassination car.",
+        "photo_url": "images/museum.webp"
+    },
+    {
+        "name": "Jhalobia Recreation Park and Gardens",
+        "address": "Along Murtala Mohammed Airport Road, Opposite Ajao Estate, Lagos.",
+        "cost": "₦500-₦2,000 depending on age and group size; special rates for events and photoshoots",
+        "description": "Lush gardens with lawns, water features, and picnic spots.",
+        "photo_url": "images/jaolobia.webp"
+    },
+    {
+       "name": "Terra Kulture",
+       "address": "1376 Tiamiyu Savage Street, Victoria Island, Lagos.",
+       "cost": "₦1,000-₦5,000 depending on events or stage plays",
+       "description": "Cultural hub with art, theatre, local cuisine, and African heritage events.",
+       "photo_url": "images/terraculture.webp"
+    },
+    {
+        "name": "Lekki Arts and Crafts Market",
+        "address": "Oba Elegushi International Market Road, Jakande, Lekki, Lagos.",
+        "cost": "Free entry; prices vary based on items purchased",
+        "description": "Open-air market for African crafts, art, jewelry, and souvenirs.",
+        "photo_url": "images/lekkiart.webp"
+    },
+    {
+        "name": "Art Twenty One",
+        "address": "Eko Hotel and Suites, 1415 Adetokunbo Ademola Street, Victoria Island, Lagos.",
+        "cost": "Free entry",
+        "description": "Modern gallery with exhibitions from Nigerian and global artists.",
+        "photo_url": "images/arttwentyone.webp"
+    },
+    {
+        "name": "Lekki Conservation Centre",
+        "address": "KM 19 Lekki-Epe Expressway, Lekki Peninsula, Lagos.",
+        "cost": "₦1,000-₦2,000 for entry; additional fees for canopy walk and tours",
+        "description": "Nature reserve with Africa’s longest canopy walk and wildlife.",
+        "photo_url": "images/lcc.webp"
+    },
+    {
+        "name": "The Backyard Bar & Grill",
+        "address": "4b Musa Yar'Adua Street, Victoria Island, Lagos.",
+        "cost": "₦5,000-₦12,000 per person, depending on meals and drinks",
+        "description": "Trendy outdoor restaurant with a cozy garden setting.",
+        "photo_url": "images/backyardbar.webp"
+    },
+    {
+        "name": "Red Door Gallery",
+        "address": "51 Bishop Oluwole Street, Victoria Island, Lagos.",
+        "cost": "Free entry; artworks available for purchase",
+        "description": " Contemporary African art, paintings, and sculptures in a serene space.",
+        "photo_url": "images/reddoor.webp"
+    },
+    {
+       "name": "Lekki Leisure Lake",
+       "address": "Block 1, Plot 3, Lekki Peninsula Scheme 1, Lekki, Lagos.",
+       "cost": "₦1,000-₦2,000 for entry; additional fees for activities",
+       "description": "Waterfront fun with jet skiing, boat rides, and quad biking.",
+       "photo_url": "images/lekkileisure.webp"
+    }
+
+]
