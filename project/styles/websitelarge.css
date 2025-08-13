@@ -1,5 +1,5 @@
 /* Applies only to extra large screens */
-@media (min-width: 1440px) {
+@media (min-width: 600px) {
   body {
     font-size: 1.125rem; /* Slightly bigger base text */
   }
@@ -18,13 +18,13 @@
   }
 
   /* Hero section */
-  .hero {
+  /* .hero {
     padding: 4rem 6rem;
-  }
+  } */
 
-  .hero img {
-    max-width: 1000px; /* expands on big screens */
-  }
+  /* .hero img {
+    max-width: 1000px;
+  } */
 
 
   .hero h1 {
@@ -41,6 +41,8 @@
   .about-section {
     gap: 3rem;
     padding: 4rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .about-section img {

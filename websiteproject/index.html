@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards From My Heart</title>
+    <meta name="description"
+        content="Cards From My Heart creates unique meme cards for every occasion. Share laughter, love, and memorable moments with our custom card designs. Perfect for birthdays, celebrations, and just because.">
+    <meta name="author" content="Mirian Ukeje">
+    <meta property="og:title" content="Cards From My Heart">
+    <meta property="og:description"
+        content="Cards From My Heart creates unique meme cards for every occasion. Share laughter, love, and memorable moments with our custom card designs. Perfect for birthdays, celebrations, and just because.">
+    <meta property="og:image" content="https://mirianukeje.github.io/wdd231/finalproject/images/placeholder-image.jpg">
+    <meta property="og:url" content="https://mirianukeje.github.io/wdd231/finalproject/index.html">
+    <meta property="og:locale" content="en_US">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main-medium.css">
+    <link rel="stylesheet" href="styles/main-larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
+    <script src="scripts/meme.js" defer></script>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <div class="container header-container">
+            <div class="main-header">
+                <img src="images/cfmhlogo.webp" alt="CFMH Logo" width="44" height="44">
+                <h1 class="site-title" id="site-title">Site Title</h1>
+                <button id="nav-button" type="button" class="hamburger" aria-label="Toggle menu"></button>
+            </div>
+
+            <nav id="nav-bar" class="navigation" aria-label="Primary navigation">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main id="main-content">
+
+        <div class="home-hero">
+            <div class="container">
+                <div class="hero-columns">
+                    <h2 class="home-hero-title h2-light">Send a Card, Share a Smile</h2>
+                    <p class="hero-text">
+                        Discover unique, heartfelt cards for every occasion. From birthdays to celebrations and everyday
+                        moments, our designs help you connect and spread joy.
+                        Personalize your message and make someone's day extra special.
+                    </p>
+                    <a id="home-hero-cta" href="shop.html" role="button" target="_blank" rel="noopener">Shop Now</a>
+                    <div class="hero-image">
+                        <img src="images/homecard.webp" alt="Greeting cards bringing joy and connection" width="600" height="400"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <picture class="hero-picture">
+                <source media="(min-width: 600px)" srcset="images/cardsite.webp">
+                <img src="images/cardsite.webp" alt="Hero Image" loading="lazy">
+            </picture>
+            <div class="hero-copy">
+                <h2>Send a Card, Share a Smile</h2>
+                <p>Let someone know they are in your thoughts with a message made just for them!</p>
+                <a href="contact.html" class="btn-primary">Get in Touch</a>
+            </div>
+        </div>
+
+        <div class="spotlight">
+            <div class="container">
+                <h2>What's Your Pick?</h2>
+                <div class="spotlight-grid">
+
+                    <div class="spotlight-card">
+                        <div class="spotlight-image">
+                            <img src="images/customcard.webp" alt="Prize Ceremony">
+                        </div>
+                        <div class="spotlight-content">
+                            <h3 class="spotlight-title">Custom-made Cards</h3>
+                            <p class="spotlight-text">Make every moment unforgettable with a card designed just for you.
+                                From heartfelt words to unique designs, we create custom-made cards that speak your
+                                style, your story, and your love. Share your ideas, and we'll bring them to life</p>
+                            <button id="modal-news-1-btn" class="btn">Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="spotlight-card">
+                        <div class="spotlight-image">
+                            <img src="images/readymade.webp" alt="Birthday Celebrations">
+                        </div>
+                        <div class="spotlight-content">
+                            <h3 class="spotlight-title">Ready-made Cards</h3>
+                            <p class="spotlight-text">No time to wait? Explore our collection of thoughtfully designed
+                                ready-made cards for every occasion. From birthdays to “just because,” find the perfect
+                                card that's ready to go, and ready to make someone smile.</p>
+                            <button id="modal-news-2-btn" class="btn">Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="spotlight-card">
+                        <div class="spotlight-image">
+                            <img src="images/custom-gift.webp" alt="Custom Gift">
+                        </div>
+                        <div class="spotlight-content">
+                            <h3 class="spotlight-title">Custom-made Gifts</h3>
+                            <p class="spotlight-text">Turn your ideas into unforgettable keepsakes. Whether it's for a
+                                special occasion or just because, our custom-made gifts are designed to capture your
+                                story and make every moment truly yours. You dream it, we create it.</p>
+                            <button id="modal-news-3-btn" class="btn">Read More</button>
+                        </div>
+                    </div>
+
+                    <!-- Detailed Dialogs -->
+
+                    <dialog id="modal-news-1">
+                        <div class="mod-header">
+                            <h3 id="title-news-1">Custom-made Cards</h3>
+                            <button class="close-btn">❌</button>
+                        </div>
+                        <div id="desc-news-1" class="news-content"></div>
+                        <p>Our Custom-Made Card is crafted to bring your vision to life, perfect for any occasion, from
+                            heartfelt love notes to once-in-a-lifetime milestones. With personalized designs, unique
+                            details, and your own special message, it's a one-of-a-kind way to share your heart and make
+                            every moment unforgettable.</p>
+                        <p>Choose from several styles and customize your greeting. Make every milestone memorable with a
+                            card that stands out.</p>
+                        <ul>
+                            <li>Customizable message area</li>
+                            <li>Premium print and digital options</li>
+                            <li>Fast delivery to your inbox</li>
+                        </ul>
+                        <p>Order yours today and celebrate with heart!</p>
+                        </div>
+                    </dialog>
+                    <dialog id="modal-news-2">
+                    <div class="mod-header">
+                        <h3 id="title-news-2">Ready-made Cards</h3>
+                    <button class="close-btn">❌</button>
+                    </div>
+                    <div id="desc-news-2" class="news-content"></div>
+                    <p>Our ready-made cards are thoughtfully designed for every occasion, from birthdays to heartfelt
+                        “just because” moments. Simply pick your favorite design, playful, elegant, or classic — and
+                        have it ready to share in no time, no personalization needed.</p>
+                    <p>Share joy in an instant. Our ready-made cards are beautifully designed and ready to go, so you
+                        can celebrate life's moments without the wait..</p>
+                    <p>Browse our ready-made collection and find the perfect card for any occasion..</p>
+            </div>
+            </dialog>
+
+            <dialog id="modal-news-3">
+                <div class="mod-header">
+                    <h3 id="title-news-3">Custom-made Gifts</h3>
+                    <button class="close-btn">❌</button>
+                </div>
+                <div id="desc-news-3" class="news-content">
+                    <p>Our custom-made gifts are designed to make every moment truly personal, from milestone
+                        celebrations to everyday gestures of love. Choose your gift style, add your unique details, and
+                        let us create a one-of-a-kind piece that's as special as the person receiving it.</p>
+                    <p>Our custom-made gifts turn moments into lasting memories. Read more customer stories and see how
+                        a personalized gift can create connections that last a lifetime.</p>
+                    <p>Explore our custom-made gifts and design a treasure your loved ones will cherish.</p>
+                </div>
+            </dialog>
+        </div>
+        </div>
+        </div>
+
+        <div class="section-light about-us">
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="about-us-img">
+                    <img src="images/store.webp" alt="first about us image" loading="lazy">
+                    <img src="images/package.webp" alt="second about us image" loading="lazy">
+                </div>
+                <p>
+                    At Cards From My Heart, we believe that the simplest gestures can leave the deepest impressions. A
+                    card isn't just paper and ink, it's a piece of your heart, a way to say I care, I'm thinking of you,
+                    or I'm proud of you without even having to be in the same room.
+
+                    Founded in 2023 from a deep love for design and meaningful connection, our journey began with a
+                    simple mission: to help people express their feelings in the most beautiful and personal way
+                    possible. What started as a passion project has grown into a space where creativity meets emotion,
+                    offering both ready-made designs for life's quick moments and custom-made creations for occasions
+                    that deserve something truly unique.
+
+                    From birthdays and weddings to “just because” surprises, every card and gift we create is crafted
+                    with attention to detail, love for artistry, and an understanding that your message matters.
+
+                    We're here to make sure your words are seen, felt, and remembered, one card at a time.
+                </p>
+            </div>
+        </div>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="section-light">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>What is Cards From My Heart?</summary>
+                        <p>
+                            Cards From My Heart is a creative platform offering unique meme cards for every occasion. We
+                            help you share
+                            laughter, love, and memorable moments with custom card designs.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I order a custom card?</summary>
+                        <p>
+                            You can order a custom card by visiting our <a href="contact.html">Contact Us page</a> and
+                            submitting your
+                            request. We'll work with you to create a card that fits your occasion perfectly.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Can I personalize the message on my card?</summary>
+                        <p>
+                            Yes! All our cards can be personalized with your own message, names, or special dates. Just
+                            let us know your
+                            preferences when you order.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>What occasions do you cover?</summary>
+                        <p>
+                            We create cards for birthdays, celebrations, anniversaries, holidays, and “just because”
+                            moments. If you have a
+                            unique occasion, contact us and we'll design something special.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How are cards delivered?</summary>
+                        <p>
+                            Cards are delivered digitally via email. Physical delivery may be available on
+                            request—please ask us on the <a href="contact.html">Contact Us page</a>.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Can I request a bulk order?</summary>
+                        <p>
+                            Yes, we accept bulk orders for events, organizations, or businesses. Reach out through our
+                            <a href="contact.html">Contact Us page</a> for details and pricing.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I get in touch for support or questions?</summary>
+                        <p>
+                            For any questions or support, please use our <a href="contact.html">Contact Us page</a> and
+                            we'll respond
+                            promptly.
+                        </p>
+                    </details>
+
+                    <p><a href="contact.html#faq">See all frequently asked questions</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-light contact-us">
+            <div class="container">
+                <h2> Contact Us </h2>
+                <p>
+                    Have a custom request or a question? We're here to help! Reach out to us anytime.<br>
+                    Email: contact@cardsfrommyheart.com <br>
+                    Instagram: @cardsfrommyheart <br>
+
+                </p>
+                <a class="btn" href="contact.html">Contact Us</a>
+            </div>
+        </div>
+
+        <div id="memes" class="section-light">
+            <div class="container">
+                <h2>Daily Inspiration</h2>
+                <p>A little daily dose of positivity to brighten your day - just like our greeting cards!</p>
+                <!-- Meme content will be loaded here by JavaScript -->
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <div class="footer-address">
+                <p>&copy; <span id="currentyear"></span> <span id="site-owner">Site Title</span></p>
+
+            </div>
+
+            <div class="social">
+                <a href="https://github.com/mirianukeje" target="_blank"><img src="images/github.svg" alt="GitHub Icon"
+                        width="48" height="48"></a>
+                <a href="http://www.linkedin.com/in/mirian-ukeje-9122311a0" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="48" height="48"></a>
+                <a href="#" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="48" height="48"></a>
+                <a href="#" target="_blank"><img src="images/twitter-x.svg" alt="Twitter-X" width="48" height="48"></a>
+            </div>
+
+            <div class="footer-author">
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="scripts/main.js"></script>
+
+</body>
+
+</html>
