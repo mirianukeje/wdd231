@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards From My Heart</title>
+    <meta name="description"
+        content="Cards From My Heart creates unique meme cards for every occasion. Share laughter, love, and memorable moments with our custom card designs. Perfect for birthdays, celebrations, and just because.">
+    <meta name="author" content="Mirian Ukeje">
+    <meta property="og:title" content="Cards From My Heart">
+    <meta property="og:description"
+        content="Cards From My Heart creates unique meme cards for every occasion. Share laughter, love, and memorable moments with our custom card designs. Perfect for birthdays, celebrations, and just because.">
+    <meta property="og:image" content="https://mirianukeje.github.io/wdd231/project/images/featured-image.png">
+    <meta property="og:url" content="https://mirianukeje.github.io/wdd231/project/index.html">
+    <meta property="og:locale" content="en_US">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main-medium.css">
+    <link rel="stylesheet" href="styles/main-larger.css">
+    <script src="scripts/navigation.js" defer></script>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <div class="container header-container">
+            <div class="main-header">
+                <img src="images/cfmhlogo.webp" alt="CFMH Logo" width="80" height="53">
+                <h1 class="site-title" id="site-title">Cards from My Heart</h1>
+                <button id="nav-button" type="button" class="hamburger" aria-label="Toggle menu"></button>
+            </div>
+
+            <nav id="nav-bar" class="navigation" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main id="main-content">
+        <div class="section-light">
+            <div class="container">
+                <h1>Shop Our Cards</h1>
+                <div id="products" class="spotlight-grid">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <div class="footer-address">
+                <p>&copy; <span id="currentyear"></span> <span id="site-owner">Cards from My Heart</span></p>
+
+            </div>
+
+            <div class="social">
+                <a href="https://github.com/mirianukeje" target="_blank"><img src="images/github.svg" alt="GitHub Icon"
+                        width="48" height="48"></a>
+                <a href="http://www.linkedin.com/in/mirian-ukeje-9122311a0" target="_blank"><img
+                        src="images/linkedin.svg" alt="LinkedIn" width="48" height="48"></a>
+                <a href="#" target="_blank"><img src="images/facebook.svg"
+                        alt="Facebook" width="48" height="48"></a>
+                <a href="#" target="_blank"><img src="images/twitter-x.svg" alt="Twitter-X"
+                        width="48" height="48"></a>
+            </div>
+
+            <div class="footer-author">
+                <a href="#" target="_blank">Demonstration Video</a>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="scripts/main.js"></script>
+
+</body>
+
+</html>
